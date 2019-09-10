@@ -1,0 +1,72 @@
+      /*INÍCIO Responsividade logo animada*/
+
+  /*INÍCIO tamanho responsivo*/
+  @media (min-width:1px) and (max-width:624px){  
+  .tamanho-svg-logo{
+    width: 150px;
+    height: 150px;
+    }
+  }
+
+  @media (min-width:625px) and (max-width:767px){  
+    .tamanho-svg-logo{
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  @media (min-width:768px) and (max-width:991px){
+    .tamanho-svg-logo{
+      width: 250px;
+      height: 250px;
+    }
+}  
+  /*FIM mobile*/
+
+  /*INÍCIO PC*/
+  @media (min-width:992px){
+    .tamanho-svg-logo{
+      width: 250px;
+      height: 250px;
+    }
+    .svg-lia{
+      padding-left: 39%;
+    }
+  }
+
+  /*FIM tamanho responsivo*/
+
+  /*INÍCIO padding-left responsivo*/
+  @media (min-width:1px) and (max-width:399px){
+    .svg-lia{
+      padding-left: 29%;
+    }
+  }
+
+  @media (min-width: 400px) and (max-width:450px){
+    .svg-lia{
+      padding-left: 32%;
+    }
+  }
+
+  @media (min-width: 450px) and (max-width:499px){
+    .svg-lia{
+      padding-left: 34%;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width:549px){
+    .svg-lia{
+      padding-left: 36%;
+    }
+  }
+
+  @media (min-width: 550px) and (max-width:624px){
+    .svg-lia{
+      padding-left: 38%;
+    }
+  }
+  /*FIM padding-left responsivo*/
+
+      /*FIM Responsividade logo animada*/
+
